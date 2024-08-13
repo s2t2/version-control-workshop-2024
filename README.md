@@ -1,4 +1,4 @@
-# version-control-workshop-2024
+# version-control-workshop
 
 **Title:**: Collaborate through Code (Version Control Basics)
 
