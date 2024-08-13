@@ -1,6 +1,6 @@
 # version-control-workshop
 
-**Title:**: Collaborate through Code (Version Control Basics)
+**Title:** Collaborate through Code (Version Control Basics)
 
 **Description:** Demystify the version control process and learn how to manage and collaborate on coding projects with other researchers and developers. Attendees will become familar with Git and GitHub.
 
