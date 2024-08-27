@@ -1,0 +1,25 @@
+# Version Control Overview
+
+
+
+> Version control systems are a category of software tools that help a software team manage changes to source code over time. Version control software keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake while minimizing disruption to all team members. - [Atlassian website](https://www.atlassian.com/git/tutorials/what-is-version-control)
+
+![Version Control Image ([source](https://web.archive.org/web/20170216074720/https://www.atlassian.com/git/tutorials/what-is-version-control))](../images/version-control.png)
+
+## Terminology
+
+**Repository** (noun): A software development project. Otherwise known as a "repo". In practice, a repository is just directory of files and folders.
+
+**Fork** (verb): To make a copy of a repository under your own control.
+
+**Clone** (verb): To download a repository onto your local machine.
+
+**Branch** (noun): One of many potential alternative realities / states of the repo. Default is "main".
+
+**Commit** (noun): A snapshot (version) of the repo at a specific point in time. A named version that can be rolled back to.
+
+**Push** (verb): To upload code to GitHub.
+
+**Pull** (verb): To download code to GitHub.
+
+**Pull Request** (noun): A set of proposed changes comprising one or more commits, usually made on a feature-specific branch or separate fork, and corresponding request that a repository maintainer pull / merge / adopt the code into the "main" branch. Otherwise known as a "PR".

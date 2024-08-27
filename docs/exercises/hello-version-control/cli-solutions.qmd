@@ -1,0 +1,41 @@
+
+# "Hello Version Control" Command Line Solutions
+
+Here are some of the commands you might use during the course of the version control exercise, if you are using Git from the command line:
+
+Create a GitHub repo (perhaps called "my-first-repo"), obtain its remote address, then clone the repo and navigate there from the command line:
+
+```sh
+cd ~/Desktop
+git clone REMOTE_ADDRESS # where REMOTE_ADDRESS is the remote address of your GitHub repo
+cd my-first-repo/
+```
+
+Open the project in the text editor:
+
+```sh
+code .
+```
+
+Create a file using the text editor (or use the command line):
+
+```sh
+touch my_file.md
+```
+
+Edit and save the file, then stage the changes and make a local commit:
+
+```sh
+git add .
+git commit -m "My first commit"
+```
+
+Push the changes up to GitHub:
+
+```sh
+git push origin main
+
+```
+
+
+Repeat the process of editing and committing and pushing as desired.

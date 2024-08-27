@@ -1,0 +1,26 @@
+# "Developer Team Collaboration" Exercise
+
+## Learning Objectives
+
+Adopt a Pull Request Workflow to collaborate with teammates, on team projects where you have write access to the repository.
+
+## Instructions
+
+For team projects, it is possible for each collaborator to fork the original repo and use the "Open Source Projects" approach described above to contribute.
+
+Otherwise, for teams who want everyone to have write access to the same shared repo, see the process below:
+
+  1. Create a new repo under your own control and invite other members as collaborators, or join an existing repo that someone else has invited you to collaborate on. For example you could request access to this [example shared repo](https://github.com/prof-rossetti/example-shared-repo).
+  2. Clone the repo locally if you haven't already done so. Ensure your local main branch is up-to-date with the origin main branch.
+  3. Checkout a new local feature branch called something like "[USERNAME]-new-feature-123". We include the username in the branch name so our branch names will stay unique and not conflict with other people's branches.
+  4. Modify some part of the codebase (for this exercise, the change we'll make is to add a new file in the app directory called "[USERNAME]_script.py", with some example print statements inside it), then save your work, and make a commit on the local feature branch.
+  5. Push the local feature branch revisions to the origin repo.
+  6. Create a Pull Request to compare the feature branch changes against the main branch.
+  7. Ask a repo collaborator to conduct a Code Review on your Pull Request.
+  8. Wait until a collaborator takes further action - reviewing your code and hopefully eventually approving your changes. After approving the changes, either you or a collaborator can merge the code via the GitHub interface.
+
+To repeat the process (after changes have been merged):
+
+  9.  After the changes have been merged to the upstream repo, visit your origin repo on GitHub and click "Fetch Upstream" to update your origin main branch.
+  10. From GitHub Desktop, checkout the main branch, and pull the most recent changes from the origin main branch.
+  11. Then repeat steps 3-8 above.

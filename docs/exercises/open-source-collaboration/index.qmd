@@ -1,0 +1,25 @@
+# "Open Source Collaboration" Exercise
+
+## Learning Objectives
+
+Adopt and practice a Pull Request Workflow to collaborate with people you don't know, on open source projects where you don't have write access to the repository.
+
+## Instructions
+
+This is the process we will follow to add or revise the functionality of repos we don't own or have write access to:
+
+  1. Choose a repo owned by someone else, that you don't have direct write access to (i.e. the "upstream" repo). Like this [example open source repo](https://github.com/prof-rossetti/example-open-source-repo).
+  2. Fork the upstream repo to create a copy under your own control (i.e. the "origin" repo).
+  3. Clone the origin repo locally. Ensure your local main branch is up-to-date with the upstream and origin main branches.
+  4. Checkout a new local feature branch called something like "new-feature-123".
+  5. Modify some part of the codebase (for this exercise, the change we'll make is to add a new file in the app directory called "[USERNAME]_script.py", with some example print statements inside it), then save your work, and make a commit on the local feature branch.
+  6. Push the local feature branch revisions to the origin repo.
+  7. Create a Pull Request to compare the origin feature branch changes against the upstream main branch.
+  8. Wait until a maintainer of the upstream repo takes further action - eventually hopefully merging your code into the upstream main branch.
+
+To repeat the process (after changes have been merged):
+
+  9. After the changes have been merged to the upstream repo, visit your origin repo on GitHub and click "Fetch Upstream" to update your origin main branch.
+  10. From GitHub Desktop, checkout the main branch, and pull the most recent changes from the upstream main branch.
+  11. Then push those changes to the origin main branch, to ensure it is up-to-date with the upstream main branch.
+  12. Then repeat steps 4-8 above.

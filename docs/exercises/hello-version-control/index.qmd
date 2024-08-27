@@ -1,3 +1,39 @@
 # "Hello Version Control" Exercise
 
-This is some exercise content.
+## Learning Objectives
+
+Gain familiarity with basic version control operations, including creating repositories, pushing and pulling code, and making commits.
+
+## Instructions
+
+  1. On GitHub, create a new repository named something like "my-first-repo", and make sure to include a "README.md" file. We'll refer to this as the "remote repository".
+  2. Use your Git client of choice to "clone" (download) the remote repository onto your local machine, for example onto the Desktop. We'll refer to this as the "local repository".
+  3. Open the local repository in your text editor.
+  4. Use your text editor to edit the README.md file, using content like the example markdown below. Remember to save the file when you're done editing.
+  5. Use your Git Client to stage the changes and "make a commit" (save a new version) with a message like "Update README contents".
+  6. Use your Git Client to "push" the changes to GitHub / sync with the remote repository.
+
+
+Example markdown ("README.md" file):
+
+```md
+# My First Repo!
+
+This is the README.md file. It uses the markdown language. The line above is a heading, starting with the # sign.
+
+Here is a list:
+
+  + Item 1
+  + Item 2
+  + Item 3
+
+For more information about Markdown syntax, see the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/).
+```
+
+## Success Criteria
+
+Once you see the updated README file contents reflected in your remote repository on GitHub, you have succeeded. Repeat the file-editing, committing and pushing steps at least one more time for good measure.
+
+## Further Exploration (Git CLI)
+
+If you are using Git from the command-line, feel free to reference these [exercise solutions](./cli-solutions.qmd).

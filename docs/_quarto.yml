@@ -76,10 +76,18 @@ book:
 
     - "-------------"
 
+    - notes/version-control.qmd
+
     - part: "Workshop Exercises"
       chapters:
         - href: exercises/hello-version-control/index.qmd
           text: Hello Version Control
+        - href: exercises/pull-request-workflow/index.qmd
+          text: Pull Request Workflow
+        - href: exercises/developer-team-collaboration/index.qmd
+          text: Developer Team Collaboration
+        - href: exercises/open-source-collaboration/index.qmd
+          text: Open Source Collaboration
 
 
 

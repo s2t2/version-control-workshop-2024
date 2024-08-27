@@ -28,10 +28,18 @@ If you have never worked with these tools before, we will walk you through how t
 
 + 0:00 - Welcome and Announcements:
   + Make sure you have already installed the prerequisite software before the workshop.
-+ 0:05 - ______________
-+ 0:20 - ______________:
-  + _______________.
-+ 0:35 - _________________:
-  + ___________________.
-+ 0:50 - ___________________
-+ 0:60 - Stop
+  + For all workshop exercises, beginners are encouraged to use GitHub Desktop, but any participant desiring further exploration can use the Git CLI instead.
+
++ 0:05 - [Version Control Terminology and Concepts](./notes/version-control.qmd)
++ 0:10 - ["Hello Version Control" Exercise](./exercises/hello-version-control/index.qmd):
+  + Gain familiarity with basic version control operations, including creating repositories, pushing and pulling code, and making commits.
++ 0:30 - ["Pull Request Workflow" Exercise](./exercises/pull-request-workflow/index.qmd):
+  + Adopt a Pull Request Workflow to collaborate with yourself (on independent projects).
++ 0:50 - ["Developer Team Collaboration" Exercise](./exercises/developer-team-collaboration/index.qmd):
+  + Adopt a Pull Request Workflow to collaborate with teammates, on team projects where you have write access to the repository.
++ 0:70 - ["Open Source Collaboration" Exercise](./exercises/open-source-collaboration/index.qmd):
+  + Adopt a Pull Request Workflow to collaborate with people you don't know, on open source projects where you don't have write access to the repository.
++ 0:90 - Stop
+
+
+The agenda above is for a 90 minute workshop, however for a 60 minute workshop, choose either the team exercise or open source exercise, and do the other for homework / self-practice.
