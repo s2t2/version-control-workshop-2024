@@ -1,4 +1,4 @@
-# Pull Request Workflow Exercise
+# "Pull Request Workflow" Exercise
 
 ## Learning Objectives
 
@@ -6,7 +6,7 @@ Adopt a Pull Request Workflow to collaborate with yourself (on independent proje
 
 ## Instructions
 
-This is the process we will follow to add or revise the functionality of our own existing repos:
+This is a process we will follow to add or revise the contents of our own existing repos:
 
   1. Choose one of your existing GitHub repos, or create a new one (i.e. the "origin" repo).
   2. Clone the repo locally if you haven't already done so. Ensure your local main branch is up-to-date with the origin main branch.
@@ -19,5 +19,5 @@ This is the process we will follow to add or revise the functionality of our own
 
 To repeat the process (after changes have been merged):
 
-  9.  Checkout the main branch, and pull the most recent changes from the origin main branch.
+  9.  Using your Git Client, checkout the main branch, and pull the most recent changes from the origin main branch.
   10. Then repeat steps 3-8 above.

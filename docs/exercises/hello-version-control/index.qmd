@@ -19,7 +19,7 @@ Example markdown ("README.md" file):
 ```md
 # My First Repo!
 
-This is the README.md file. It uses the markdown language. The line above is a heading, starting with the # sign.
+This is the README.md file. It uses the markdown language.
 
 Here is a list:
 

@@ -14,12 +14,15 @@
 
 **Clone** (verb): To download a repository onto your local machine.
 
-**Branch** (noun): One of many potential alternative realities / states of the repo. Default is "main".
-
 **Commit** (noun): A snapshot (version) of the repo at a specific point in time. A named version that can be rolled back to.
 
 **Push** (verb): To upload code to GitHub.
 
 **Pull** (verb): To download code to GitHub.
 
+**Branch** (noun): One of many potential alternative realities / states of the repo. Default is "main".
+
 **Pull Request** (noun): A set of proposed changes comprising one or more commits, usually made on a feature-specific branch or separate fork, and corresponding request that a repository maintainer pull / merge / adopt the code into the "main" branch. Otherwise known as a "PR".
+
+
+See also this [Glossary](https://docs.github.com/en/get-started/learning-about-github/github-glossary) of GitHub terms.

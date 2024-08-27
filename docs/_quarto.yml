@@ -76,7 +76,9 @@ book:
 
     - "-------------"
 
-    - notes/version-control.qmd
+    - part: "Notes"
+      chapters:
+        - notes/version-control.qmd
 
     - part: "Workshop Exercises"
       chapters:

@@ -43,3 +43,19 @@ If you have never worked with these tools before, we will walk you through how t
 
 
 The agenda above is for a 90 minute workshop, however for a 60 minute workshop, choose either the team exercise or open source exercise, and do the other for homework / self-practice.
+
+## Additional Resources
+
+Official GitHub Docs:
+
+  + <https://docs.github.com/en>
+  + <https://docs.github.com/en/get-started/using-github/github-flow>
+  + <https://githubtraining.github.io/training-manual/#>
+  + <https://training.github.com/downloads/github-git-cheat-sheet.pdf>
+
+Here are some additional resources for further exploration:
+
+  + <https://github.com/k88hudson/git-flight-rules>
+  + <https://git-teaching-kit.netlify.app>
+  + <https://swcarpentry.github.io/git-novice>
+  + <https://thecodingtrain.com/tracks/git-and-github-for-poets>
