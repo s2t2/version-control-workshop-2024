@@ -80,6 +80,7 @@ book:
       chapters:
         - notes/version-control.qmd
 
+    - "-------------"
     - part: "Workshop Exercises"
       chapters:
         - href: exercises/hello-version-control/index.qmd
@@ -96,8 +97,10 @@ book:
     - "-------------"
 
 
-  #appendices:
-
+  appendices:
+    - href: notes/clis/brew.qmd
+      text: "Homebrew Package Manager (Mac OS)"
+    - notes/clis/git.qmd
 
   # shows up at bottom of page
   #body-footer: "&copy; Copyright 2024, Your Name Here"

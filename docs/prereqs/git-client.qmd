@@ -30,7 +30,7 @@ You should be able to open the GitHub Desktop application, and visit the setting
 Installing Git depends on your operating system:
 
   + Windows users who have installed [Git Bash](https://git-scm.com/downloads) will have satisfied the Git installation requirement.
-  + Mac users may find that a system version of Git is already installed, and that might be sufficient to satisfy the Git installation requirement. Any Mac users who encounter errors or who desire a newer version of Git can install Git from https://git-scm.com/downloads, or consider [installing Homebrew](../notes/clis/brew.qmd), and using Homebrew to install Git (`brew install git`).
+  + Mac users may find that a system version of Git is already installed, and that might be sufficient to satisfy the Git installation requirement. Any Mac users who encounter errors or who desire a newer version of Git can install Git from <https://git-scm.com/downloads>, or consider [installing Homebrew](../notes/clis/brew.qmd), and using Homebrew to install Git (`brew install git`).
 
 ### Success Criteria
 
