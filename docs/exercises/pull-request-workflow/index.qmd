@@ -6,18 +6,64 @@ Adopt a Pull Request Workflow to collaborate with yourself (on independent proje
 
 ## Instructions
 
-This is a process we will follow to add or revise the contents of our own existing repos:
+This is a process we will follow to add or revise the contents of our own existing repos. If you have just completed the ["Hello Version Control" exercise](../hello-version-control/index.qmd), you can start at step 3:
+
+Repo Setup Process:
 
   1. Choose one of your existing GitHub repos, or create a new one (i.e. the "origin" repo).
-  2. Clone the repo locally if you haven't already done so. Ensure your local main branch is up-to-date with the origin main branch.
-  3. Checkout a new local feature branch called something like "new-feature-123".
-  4. Modify some part of the codebase (for this exercise, any trivial change will do), save your work, and make a commit on the local feature branch.
-  5. Push the local feature branch revisions to the origin repo.
-  6. Create a Pull Request to compare the feature branch changes against the main branch.
-  7. In the Pull Request, review the changes and optionally make some comments.
-  8. When you are satisfied with the changes, merge the Pull Request via the GitHub interface.
+  2. Clone the repo locally and navigate there from the command-line, if you haven't already done so.
 
-To repeat the process (after changes have been merged):
+PR Workflow Process:
 
-  9.  Using your Git Client, checkout the main branch, and pull the most recent changes from the origin main branch.
-  10. Then repeat steps 3-8 above.
+  3. Ensure your local main branch is up-to-date with the origin main branch: Using your Git Client, checkout the main branch, then fetch and pull the most recent changes from the origin main branch.
+  4. Checkout a new local feature branch called something like "new-feature-123".
+  5. Modify some part of the codebase (for example, making a trivial change to the README), save your work, and make a commit on the local feature branch.
+  6. Push the local feature branch revisions to the origin repo.
+  7. Create a Pull Request to compare the feature branch changes against the main branch.
+  8. In the Pull Request, review the changes and optionally make some comments.
+  9. When you are satisfied with the changes, merge the Pull Request via the GitHub interface.
+
+To repeat the PR Workflow Process (after PR has been merged), repeat steps 3-9 above.
+
+## Walkthrough Video
+
+{{< video https://www.youtube.com/watch?v=NTzUbULGc3o
+    title= "Pull Request Workflow Exercise Walkthrough"
+>}}
+
+<hr>
+
+## Optional Further Exploration (Git CLI)
+
+Beginners are recommended to use GitHub Desktop to complete the exercise above, however if anyone is interested in completing the exercise using Git from the command line, see the commands below.
+
+Ensuring local main branch is up-to-date:
+
+```sh
+# checkout local main branch:
+git checkout main
+
+# sync with origin main branch:
+git fetch origin
+git pull origin main
+```
+
+
+Checking out new feature branch called "new-feature-123":
+
+```sh
+git checkout -b new-feature-123
+```
+
+Making a commit (after making changes):
+
+```sh
+git add .
+git commit -m "My new feature"
+```
+
+Pushing the local feature branch revisions to the origin repo:
+
+```sh
+git push origin new-feature-123
+```

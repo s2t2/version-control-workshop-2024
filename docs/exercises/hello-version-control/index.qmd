@@ -34,45 +34,49 @@ For more information about Markdown syntax, see the [Markdown Cheat Sheet](https
 
 Once you see the updated README file contents reflected in your remote repository on GitHub, you have succeeded. Repeat the file-editing, committing and pushing steps at least one more time for good measure.
 
+## Walkthrough Video
+
+{{< video https://www.youtube.com/watch?v=UCcbvta2dp4
+    title= "Hello, Version Control Exercise Walkthrough"
+>}}
+
 <hr>
 
 ## Optional Further Exploration (Git CLI)
 
 Beginners are recommended to use GitHub Desktop to complete the exercise above, however if anyone is interested in completing the exercise using Git from the command line, see the commands below.
 
-Create a GitHub repo (perhaps called "my-first-repo"), obtain its remote address, then clone the repo and navigate there from the command line:
+Cloning a repo given its remote address:
 
 ```sh
+# navigate to the desktop or wherever you want the repo to be downloaded:
 cd ~/Desktop
-git clone REMOTE_ADDRESS # where REMOTE_ADDRESS is the remote address of your GitHub repo
+
+# specify the the remote address of your own GitHub repo:
+git clone git@github.com:YOUR_USERNAME/my-first-repo.git
+```
+
+Navigating into the repo's root directory:
+
+```sh
 cd my-first-repo/
 ```
 
-Open the project in the text editor:
+Opening the repo in the VS Code text editor:
 
 ```sh
 code .
 ```
 
-Create a file using the text editor (or use the command line):
-
-```sh
-touch my_file.md
-```
-
-Edit and save the file, then stage the changes and make a local commit:
+Staging and committing changes (after editing and saving files):
 
 ```sh
 git add .
 git commit -m "My first commit"
 ```
 
-Push the changes up to GitHub:
+Pushing the changes up to GitHub:
 
 ```sh
 git push origin main
-
 ```
-
-
-Repeat the process of editing and committing and pushing as desired.
