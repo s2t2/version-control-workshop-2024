@@ -17,18 +17,12 @@ Demystify the version control process and learn how to manage and collaborate on
 
 ## Prerequisites
 
-### Software
-
 This workshop requires the following software:
 
 + GitHub Desktop (requires a GitHub account)
 + VS Code Text Editor
 
 If you have never worked with these tools before, we will walk you through how to install them. Just follow the [Version Control Tools Setup Guide](./prereqs/index.qmd).
-
-### Chat
-
-Create an account with the [GW Coder's Slack](https://gwucoders.slack.com/) organization and join the `#ospo-workshops` channel, where we can chat about today's workshop, share links and resources, etc.
 
 ## Agenda
 
